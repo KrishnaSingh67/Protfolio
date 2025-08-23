@@ -105,7 +105,7 @@
       justify-self: center;
       flex-wrap: wrap;
       font-size: 1.8rem;
-      background: url(Gradient.png);
+      background: url(asset/Gradient.png);
       border-radius: 100%;
       background-repeat: repeat-y;
       background-repeat:round;
