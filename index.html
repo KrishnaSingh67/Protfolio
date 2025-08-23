@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>krishna singh- Developer protfolio</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+</style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Krishna's Protfolio</div>
+            <div class="right">
+                <ul>
+
+                    <li> <a href="/">Home </a></li>
+                    <li> <a href="#about">about </a></li>
+                    <li> <a href="#contact">contact me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="fristSection">
+            <div class="leftsection">
+                <!-- <img src="profecional.jpg" alt="">     // set this image in the background -->
+                Hey, I am <span class="golder">Krishna Singh</span>
+                <div> I am a Frontend Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class=" btn1">Download Resume</button>
+                    <button class="btn">Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+               <img src="imgi.webp" alt="image">
+            </div>
+        </section>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>
+                Hi, I'm <strong>Krishna Singh</strong>, a passionate <strong>Frontend Developer</strong> who loves
+                turning ideas into interactive and user-friendly web experiences.
+                My goal is to create impactful digital solutions and grow as a developer while contributing to
+                real-world projects.
+            </p>
+
+        </section>
+        <hr>
+        <h1 class="cs">Skills</h1>
+        <section class="skill" id="skill">
+    
+            <span><img src="skills/java.png" alt="">JAVA</span>
+            <span><img src="skills/js.png" alt="">JavaScript</span>
+            <span><img src="skills/css.png" alt=""> CSS</span>
+            <span><img src="skills/html.png" alt=""> HTML</span>
+            <span><img src="skills/react.png" alt=""> React.js</span>
+            <span><img src="skills/tailwind.png" alt=""> Tailwind Css</span>
+            <span><img src="skills/vs.png" alt=""> VS Code</span>
+            <span><img src="asset/github.png" alt=""> GitHub</span>
+            <span>DSA(Data Structure and Algoritm)</span>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1>Projects</h1>
+        </section>
+        <hr>
+        <h1 class="cs"> My Certificates </h1>
+        <section class="thirdsection">
+            <!-- <iframe src="asset/resume.pdf" frameborder="1"></iframe> -->
+            <!-- certificate 1 -->
+            <div class="card ">
+                <h3>DSA</h3>
+                <p>Issued by Physics Wallah</p>
+                <!-- <button> <a href="certificate/dsa certificate by pw.pdf" target="_blank">View Certificate </a></button> -->
+                <button class="btn " onclick="openPopup('certificate/dsa.png')">View Certificate</button>
+            </div>
+
+            <div class="card ">
+                <h3>HTML CSS</h3>
+                <p>Issued by Coursera</p>
+                <!-- <button> <a href="certificate/htmalcss cetificate.pdf" target="_blank">View Certificate </a></button> -->
+                <button class="btn " onclick="openPopup('certificate/htmlcss.png')">View Certificate</button>
+            </div>
+            <div class="card ">
+                <h3>Excel</h3>
+                <p>Issued by Coursera</p>
+                <!-- <button> <a href="certificate/excel.png" target="_blank"></button>View Certificate </a></button> -->
+                <button class="btn " onclick="openPopup('certificate/excel.png')">View Certificate</button>
+            </div>
+
+            </div>
+
+        </section>
+        <!-- Popup -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <button class="close-popup" onclick="closePopup()">Close</button>
+                <!-- <div id="popupFrame"></div> -->
+                <img id="popupFrame" src="" alt="Certificate">
+                <!-- <iframe id="popupFrame"></iframe> -->
+            </div>
+        </div>
+        <hr>
+        <section class="fourthsection" id="contact">
+            <h3 class="cs">Contacts</h1>
+                <span>Mobile No. -- 9005767509</span>
+                <span>eMail -- krishna22work.9@gmail.com</span>
+                <div>
+
+                    <a href="https://www.linkedin.com/in/krishna-singh-450b552b4/"> <img src="asset/linked.png" alt="">
+                        Linked</a>
+                    <a href="https://github.com/KrishnaSingh67"> <img src="asset/github.png" alt=""> Github</a>
+                    <a href="https://www.instagram.com/codder_67/"> <img src="asset/insta.png" alt=""> Instagram</a>
+                    <a href="https://www.youtube.com/@Codder-67/featured"> <img src="asset/youtube.png" alt="">
+                        Youtube</a>
+                </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <span>Krishna Protfolio</span>
+        <div class="footer">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="/">Certificate</a></li>
+                <li><a href="/">Project</a></li>
+                <li><a href="#skill">Skill</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="/"></a></li>
+                <li><a href="/"></a></li>
+                <li><a href="/"></a></li>
+            </ul>
+        </div>
+
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="main.js"></script>
+    
+</body>
+
+</html>

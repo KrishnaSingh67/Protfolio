@@ -1,0 +1,15 @@
+.golder {
+    color: rgb(252, 212, 110);
+    font-size: 3rem;
+}
+
+#element {
+    color: rgb(104, 95, 74);
+}
+
+main hr {
+    border: 0;
+    background: #9490e4;
+    height: 3.2px;
+    margin: 27px 87px;
+}
