@@ -6,7 +6,7 @@
   body {
       background-color: #11071F;
       color: antiquewhite;
-      font-family:"Roboto", sans-serif ;
+      font-family: "Roboto", sans-serif;
       /* or we can use the   font-family:"Ubuntu",sans-serif; */
   }
 
@@ -108,7 +108,7 @@
       background: url(asset/Gradient.png);
       border-radius: 100%;
       background-repeat: repeat-y;
-      background-repeat:round;
+      background-repeat: round;
   }
 
   h1 {
@@ -120,10 +120,44 @@
   }
 
   .secondsection {
-      width: 80vw;
+      max-width: 70vw;
       margin: auto;
+      display: grid;
+      gap: 25px;
+      padding: 19px;
+      justify-content: space-around;
+      /* justify-self: center; */
+
+
   }
 
+
+  .secondsection .card {
+      min-height: 12vh;
+      width: 42vw;
+      /* border: 2px solid white; */
+      justify-items: center;
+      background-color: #5e25ad;
+      border-radius: 12px;
+  }
+
+  .secondsection .card a {
+      text-decoration: none;
+      color: #000;
+  }
+
+  .secondsection .card button {
+      border-style: none;
+      padding: 9px;
+      border-radius: 25px;
+      margin: 1% 43%;
+  }
+
+  .secondsection .card button:hover {
+      background-color: #5b7b8ecf;
+      font-weight: 700;
+      box-shadow: 2px 3px 4px 4px #260457;
+  }
 
 
   .thirdsection {
@@ -131,14 +165,14 @@
       justify-content: space-between;
       justify-self: center;
       padding: 10px;
-      gap: 20px;
+      gap: 30px;
       max-width: 85vw;
 
       /* border: 2px solid red; */
   }
 
   .thirdsection .card {
-      border: 2px solid rgb(250, 250, 250);
+      /* border: 1px solid rgb(250, 250, 250); */
       padding: 9px;
       justify-items: center;
       width: 15vw;
