@@ -13,7 +13,7 @@
   nav {
       display: flex;
       height: 9vh;
-      background: #000;
+      background: #230e3e;
       align-items: center;
       justify-content: space-between;
       padding: 0 19px;
@@ -50,13 +50,16 @@
 
   .leftsection {
       width: 30%;
-      font-size: 2rem;
+      font-size: 1.9rem;
   }
 
   .leftsection .buttons {
       padding: 24px;
       font-size: 4rem;
-
+  }
+  .leftsection .buttons button:hover {
+    background-color:#4b0aa6 ;
+    color: rgb(0, 0, 0);
   }
 
   .leftsection .buttons button {
@@ -123,22 +126,26 @@
       max-width: 70vw;
       margin: auto;
       display: grid;
+      grid-template-columns: 30% 30%;
       gap: 25px;
       padding: 19px;
       justify-content: space-around;
       /* justify-self: center; */
-
+      /* border: 2px solid red; */
+      justify-items: anchor-center;
 
   }
 
 
   .secondsection .card {
-      min-height: 12vh;
-      width: 42vw;
+      min-height: 13vh;
+      min-width: 31vw;
       /* border: 2px solid white; */
       justify-items: center;
       background-color: #5e25ad;
       border-radius: 12px;
+      display: grid;
+      padding: 10px 0;
   }
 
   .secondsection .card a {
@@ -150,7 +157,7 @@
       border-style: none;
       padding: 9px;
       border-radius: 25px;
-      margin: 1% 43%;
+      /* margin: 1% 43%; */
   }
 
   .secondsection .card button:hover {
@@ -252,8 +259,9 @@
       bottom: 0;
       position: relative;
       height: 22vh;
-      background-color: #232121;
-      box-shadow: 10px -2px 20px 6px rgb(0, 0, 0);
+      background-color: #1A0B2E;
+      /* background-color: #232121; */
+      box-shadow: 10px -2px 20px 6px rgb(76, 65, 65);
       display: flex;
       justify-content: space-evenly;
 
