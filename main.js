@@ -4,6 +4,7 @@
 //             typeSpeed: 60,
 //         }); 
 
+
 // Path to your uploaded résumé
 const RESUME_URL = "asset/resume.pdf";
 const RESUME_FILENAME = "Krishna_Singh_Resume.pdf";
