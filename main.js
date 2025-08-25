@@ -1,8 +1,8 @@
 //  Setup and start animation!  
-var typed = new Typed('#element', {
-            strings: ['Frontend developer', 'Java Enthusiast', 'Tech Learner'],
-            typeSpeed: 60,
-        }); 
+// var typed = new Typed('#element', {
+//             strings: ['Frontend developer', 'Java Enthusiast', 'Tech Learner'],
+//             typeSpeed: 60,
+//         }); 
 
 // Path to your uploaded résumé
 const RESUME_URL = "asset/resume.pdf";
