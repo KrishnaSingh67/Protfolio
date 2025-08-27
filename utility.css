@@ -13,3 +13,14 @@ main hr {
     height: 3.2px;
     margin: 27px 87px;
 }
+
+@media (max-width:700px) {
+    #element {
+    color: rgb(215, 176, 117);
+}
+    main hr{
+          background: #74729f;
+    height: 4px;
+    margin: 25px;
+    }
+}

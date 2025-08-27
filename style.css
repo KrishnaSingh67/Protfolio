@@ -3,21 +3,30 @@
       padding: 0;
   }
 
+  /* * {
+      outline: 1px solid lime;
+      temporary debug it is the good way od debuggin for the responsive
+  } */
+
   body {
       background-color: #11071F;
       color: antiquewhite;
       font-family: "Roboto", sans-serif;
       /* or we can use the   font-family:"Ubuntu",sans-serif; */
+      overflow-x: hidden;
+      /* prevents horizontal scroll */
+      width: 100%;
   }
 
   nav {
       display: flex;
       height: 9vh;
-      background: #230e3e;
+      background: #270f46;
       align-items: center;
       justify-content: space-between;
-      padding: 0 19px;
   }
+
+
 
   .right ul {
       display: flex;
@@ -53,13 +62,15 @@
       font-size: 1.9rem;
   }
 
+
   .leftsection .buttons {
       padding: 24px;
       font-size: 4rem;
   }
+
   .leftsection .buttons button:hover {
-    background-color:#4b0aa6 ;
-    color: rgb(0, 0, 0);
+      background-color: #4b0aa6;
+      color: rgb(0, 0, 0);
   }
 
   .leftsection .buttons button {
@@ -86,14 +97,18 @@
 
   }
 
+
+
   #about p {
       margin: 12px;
       padding: 15px;
-      width: 75vw;
+      /* width: 75vw; */
+      width: 100%;
+      max-width: 90%;
       justify-self: center;
       font-size: 1.6rem;
       box-shadow: 2px 3px 4px 3px #391758;
-      border-radius: 90%;
+      border-radius: 100%;
   }
 
   #about h1 {
@@ -101,26 +116,41 @@
   }
 
   .skill {
-      height: 42vh;
+      height: 68vh;
       display: flex;
       gap: 15%;
-      width: 60vw;
+      width: 60%;
+      max-width: 100%;
       justify-self: center;
       flex-wrap: wrap;
       font-size: 1.8rem;
       background: url(asset/Gradient.png);
-      border-radius: 100%;
+
       background-repeat: repeat-y;
       background-repeat: round;
+  }
+
+  .skill ul {
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 52px;
+  }
+
+  .skill ul li {
+      list-style-type: none;
+      margin: 9px;
+  }
+
+  .skill ul li img {
+      height: 30px;
   }
 
   h1 {
       justify-items: center;
   }
 
-  .skill span img {
-      height: 29px;
-  }
+
 
   .secondsection {
       max-width: 70vw;
@@ -331,4 +361,159 @@
 
   .popup .close-popup:hover {
       background: #dc2626;
+  }
+
+
+  @media (max-width:700px) {
+
+      nav {
+          width: 100%;
+
+          align-items: center;
+      }
+
+      nav .left {
+          display: none;
+      }
+
+      nav .right ul {
+          padding: 0 26px;
+          font-size: 1.3rem;
+          font-weight: bolder;
+      }
+
+      .leftsection {
+          width: 100%;
+          justify-items: center;
+          justify-self: center;
+          font-size: 1.2rem;
+          padding: 0 9px;
+          ;
+      }
+
+      .leftsection .golder {
+          font-size: 2.6rem;
+      }
+
+      .leftsection p {
+          margin: 0 43px;
+      }
+
+      .leftsection #element {
+          margin: 0 100px;
+      }
+
+      .leftsection .buttons {
+          padding: 49px;
+      }
+
+      .leftsection .buttons button {
+          padding: 18px;
+          font-weight: bold;
+      }
+
+      .rightsection {
+          display: none;
+      }
+
+      .about h1 {
+          font-size: 2.2rem;
+      }
+
+      .about p {
+          margin: 20px;
+          margin-left: 52px;
+          min-width: 85vw;
+      }
+
+      .skill {
+
+
+          /* margin: 12px; */
+          min-width: 100%;
+
+      }
+
+      .skill ul li {
+          list-style: none;
+      }
+
+      .skill ul li img {
+          height: 30px;
+      }
+
+      .skill ul {
+          justify-content: center;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+      }
+
+      .secondsection {
+          display: flex;
+          flex-wrap: wrap;
+          justify-items: center;
+      }
+
+      .secondsection .card {
+          min-height: 17vh;
+      }
+
+      .secondsection .card p {
+          padding: 0 17px;
+      }
+
+      .thirdsection {
+          overflow: hidden;
+          overflow: scroll;
+
+      }
+
+      .thirdsection .card {
+
+          overflow: hidden;
+          overflow: scroll;
+          /* display: flex; */
+          justify-content: space-between;
+          justify-self: center;
+          padding: 19px;
+          gap: 35px;
+          min-width: 55vw;
+
+      }
+
+
+
+      .popup-content {
+          width: 69%;
+          height: 35%;
+      }
+
+      .fourthsection {
+          margin: 28px;
+      }
+
+      .fourthsection div {
+          display: flex;
+          gap: 50px;
+          flex-wrap: wrap;
+      }
+
+      .fourthsection div a {
+          display: flex;
+          gap: 10px;
+      }
+
+      footer {
+          min-width: 100%;
+      }
+
+      .footer ul {
+          padding: 26px;
+      }
+
+      .footer ul li {
+          padding: 9px;
+      }
+
   }
