@@ -1,5 +1,5 @@
 .golder {
-    color: rgb(252, 212, 110);
+    color: rgb(7, 101, 113);
     font-size: 3rem;
 }
 
@@ -16,11 +16,12 @@ main hr {
 
 @media (max-width:700px) {
     #element {
-    color: rgb(215, 176, 117);
-}
-    main hr{
-          background: #74729f;
-    height: 4px;
-    margin: 25px;
+        color: rgb(215, 176, 117);
+    }
+
+    main hr {
+        background: #74729f;
+        height: 4px;
+        margin: 25px;
     }
 }

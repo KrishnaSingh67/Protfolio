@@ -4,13 +4,14 @@
   }
 
   /* * {
-      outline: 1px solid lime;
+      outline: 1px solid rgb(255, 0, 0);
       temporary debug it is the good way od debuggin for the responsive
   } */
 
   body {
-      background-color: #11071F;
-      color: antiquewhite;
+      /* background-color: #11071F; */
+      background-color: #8dc7f4;
+      color: rgba(23, 22, 22, 0.93);
       font-family: "Roboto", sans-serif;
       /* or we can use the   font-family:"Ubuntu",sans-serif; */
       overflow-x: hidden;
@@ -21,9 +22,11 @@
   nav {
       display: flex;
       height: 9vh;
-      background: #270f46;
+      /* background: #270f46; */
+      background-color: #61b9fd;
       align-items: center;
       justify-content: space-between;
+      /* padding: 0 20px; */
   }
 
 
@@ -33,20 +36,22 @@
       gap: 3rem;
       list-style: none;
       justify-self: flex-end;
+      font-weight: 500;
   }
 
   .right ul li a {
       text-decoration: none;
-      color: white;
+      color: rgb(0, 0, 0);
   }
 
   .right ul li a:hover {
-      color: rgb(133, 154, 217);
-      font-size: 2rem;
+      color: rgb(12, 26, 179);
+      font-weight: 800;
   }
 
   .left {
       font-size: 1.4rem;
+      font-weight: 900;
   }
 
   .fristSection {
@@ -69,19 +74,20 @@
   }
 
   .leftsection .buttons button:hover {
-      background-color: #4b0aa6;
+      background-color: #04b9ca;
       color: rgb(0, 0, 0);
   }
 
   .leftsection .buttons button {
-      background-color: #6b32a0;
-      color: white;
+      /* background-color: #6b32a0; */
+      background-color: #80dedf;
+      color: rgb(92, 90, 90);
       font-size: 0.8rem;
       padding: 10px;
       border: none;
       border-radius: 23px;
-      box-shadow: 3px 3px 6px #2e0667;
-
+      /* box-shadow: 3px 3px 6px #2e0667; */
+      box-shadow: 3px 3px 6px #4587a9;
       font-size: medium;
       font-weight: 550;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -93,8 +99,9 @@
   }
 
   .rightsection img {
-      width: 70%;
-
+      width: 90%;
+      border-radius: 100%;
+      box-shadow: 1px 25px 44px 7px #4587a9;
   }
 
 
@@ -107,7 +114,7 @@
       max-width: 90%;
       justify-self: center;
       font-size: 1.6rem;
-      box-shadow: 2px 3px 4px 3px #391758;
+      box-shadow: 8px 4px 1px 3px #66bae3;
       border-radius: 100%;
   }
 
@@ -124,10 +131,9 @@
       justify-self: center;
       flex-wrap: wrap;
       font-size: 1.8rem;
-      background: url(asset/Gradient.png);
-
-      background-repeat: repeat-y;
-      background-repeat: round;
+      /* background: url(asset/Gradient.png); */
+      border-radius: 100%;
+      box-shadow: 5px 5px 1px 3px #66bae3;
   }
 
   .skill ul {
@@ -172,7 +178,7 @@
       min-width: 31vw;
       /* border: 2px solid white; */
       justify-items: center;
-      background-color: #5e25ad;
+      background-color: #05a5bb;
       border-radius: 12px;
       display: grid;
       padding: 10px 0;
@@ -191,9 +197,9 @@
   }
 
   .secondsection .card button:hover {
-      background-color: #5b7b8ecf;
+      background-color: #63abd5cf;
       font-weight: 700;
-      box-shadow: 2px 3px 4px 4px #260457;
+      box-shadow: 2px 3px 4px 4px #2b648d;
   }
 
 
@@ -214,7 +220,7 @@
       justify-items: center;
       width: 15vw;
       border-radius: 10px;
-      background-color: #5e25ad;
+      background-color: #05a5bb;
   }
 
   .thirdsection .card a {
@@ -232,9 +238,9 @@
   }
 
   .thirdsection .card button:hover {
-      background-color: #5b7b8ecf;
+      background-color: #63abd5cf;
       font-weight: 700;
-      box-shadow: 2px 3px 4px 4px #260457;
+      box-shadow: 2px 3px 4px 4px #2b648d;
   }
 
   .cs {
@@ -254,7 +260,7 @@
 
   .card:hover {
       transform: translateY(-6px);
-      box-shadow: 0 6px 16px 4px #400a8b;
+      box-shadow: 0 6px 16px 4px #0a608b;
 
   }
 
@@ -281,7 +287,7 @@
 
   .fourthsection div a {
       text-decoration: none;
-      color: white;
+      color: rgb(42, 40, 40);
       font-weight: 600;
   }
 
@@ -289,9 +295,7 @@
       bottom: 0;
       position: relative;
       height: 22vh;
-      background-color: #1A0B2E;
-      /* background-color: #232121; */
-      box-shadow: 10px -2px 20px 6px rgb(76, 65, 65);
+      box-shadow: 10px -2px 20px 6px rgb(100, 85, 85);
       display: flex;
       justify-content: space-evenly;
 
@@ -301,7 +305,7 @@
       padding: 12px;
       font-size: large;
       font-weight: 900;
-      color: #936acc;
+      color: #262527;
       align-self: center;
   }
 
@@ -312,7 +316,8 @@
 
   .footer ul li a {
       text-decoration: none;
-      color: white;
+      color: rgb(30, 29, 29);
+      font-weight: 550;
   }
 
 
@@ -367,8 +372,6 @@
   @media (max-width:700px) {
 
       nav {
-          width: 100%;
-
           align-items: center;
       }
 
@@ -428,10 +431,11 @@
 
       .skill {
 
-
+          border-radius: 0;
+          box-shadow: none;
           /* margin: 12px; */
           min-width: 100%;
-
+          height: 54vh;
       }
 
       .skill ul li {
