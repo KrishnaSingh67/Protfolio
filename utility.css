@@ -1,27 +1,27 @@
 .golder {
-    color: rgb(7, 101, 113);
+    color: rgba(44, 206, 227, 0.955);
     font-size: 3rem;
 }
 
 #element {
-    color: rgb(104, 95, 74);
+    color: #54c3dfb7;
 }
 
 main hr {
     border: 0;
-    background: #9490e4;
+    background: #819fc882;
     height: 3.2px;
     margin: 27px 87px;
 }
 
 @media (max-width:700px) {
     #element {
-        color: rgb(215, 176, 117);
+        color:#71cbe2;
     }
 
     main hr {
-        background: #74729f;
+        background: #819fc882;
         height: 4px;
-        margin: 25px;
+        margin: 15px;
     }
 }

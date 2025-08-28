@@ -9,24 +9,22 @@
   } */
 
   body {
-      /* background-color: #11071F; */
-      background-color: #8dc7f4;
-      color: rgba(23, 22, 22, 0.93);
-      font-family: "Roboto", sans-serif;
-      /* or we can use the   font-family:"Ubuntu",sans-serif; */
-      overflow-x: hidden;
-      /* prevents horizontal scroll */
+      background-color: #162335;
+      /* background-color: #b0bdc8; */
+      color: #babfc7;
+      font-family: "Roboto", sans-serif;  
+       /* font-family:"Ubuntu",sans-serif; or we can use the*/
+      overflow-x: hidden;  /* prevents horizontal scroll */
       width: 100%;
   }
 
   nav {
       display: flex;
       height: 9vh;
-      /* background: #270f46; */
-      background-color: #61b9fd;
+      background: #152c4c;
+      /* background-color: #61b9fd; */
       align-items: center;
       justify-content: space-between;
-      /* padding: 0 20px; */
   }
 
 
@@ -41,11 +39,11 @@
 
   .right ul li a {
       text-decoration: none;
-      color: rgb(0, 0, 0);
+       color: #babfc7;
   }
 
   .right ul li a:hover {
-      color: rgb(12, 26, 179);
+      color: rgb(172, 176, 211);
       font-weight: 800;
   }
 
@@ -74,20 +72,20 @@
   }
 
   .leftsection .buttons button:hover {
-      background-color: #04b9ca;
-      color: rgb(0, 0, 0);
+      background-color: #4f6987;
+      color: rgb(11, 11, 11);
   }
 
   .leftsection .buttons button {
-      /* background-color: #6b32a0; */
-      background-color: #80dedf;
-      color: rgb(92, 90, 90);
+      background-color: #253b56;
+      /* background-color: #80dedf; */
+      color: rgb(205, 199, 199);
       font-size: 0.8rem;
       padding: 10px;
       border: none;
       border-radius: 23px;
       /* box-shadow: 3px 3px 6px #2e0667; */
-      box-shadow: 3px 3px 6px #4587a9;
+      box-shadow: 1px 4px 2px 2px  #4587a9;
       font-size: medium;
       font-weight: 550;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -114,7 +112,7 @@
       max-width: 90%;
       justify-self: center;
       font-size: 1.6rem;
-      box-shadow: 8px 4px 1px 3px #66bae3;
+      box-shadow: 8px 4px 1px 3px #4587a9;
       border-radius: 100%;
   }
 
@@ -133,7 +131,7 @@
       font-size: 1.8rem;
       /* background: url(asset/Gradient.png); */
       border-radius: 100%;
-      box-shadow: 5px 5px 1px 3px #66bae3;
+      box-shadow: 5px 5px 1px 3px #4587a9;
   }
 
   .skill ul {
@@ -178,7 +176,8 @@
       min-width: 31vw;
       /* border: 2px solid white; */
       justify-items: center;
-      background-color: #05a5bb;
+      /* background-color: #05a5bb; */
+      background-color: #127cb536;
       border-radius: 12px;
       display: grid;
       padding: 10px 0;
@@ -186,7 +185,8 @@
 
   .secondsection .card a {
       text-decoration: none;
-      color: #000;
+      color: #000000;
+      font-weight: 600;
   }
 
   .secondsection .card button {
@@ -198,8 +198,8 @@
 
   .secondsection .card button:hover {
       background-color: #63abd5cf;
-      font-weight: 700;
-      box-shadow: 2px 3px 4px 4px #2b648d;
+      /* font-weight: 700; */
+      /* box-shadow: 2px 3px 4px 4px #2b648d; */
   }
 
 
@@ -220,27 +220,26 @@
       justify-items: center;
       width: 15vw;
       border-radius: 10px;
-      background-color: #05a5bb;
+      background-color: #127cb536;
   }
 
-  .thirdsection .card a {
+  /* .thirdsection .card a {
       text-decoration: none;
-      color: rgb(0, 0, 0);
-
-
-  }
+      color: rgb(245, 245, 245);
+  font-weight: 700;
+  } */
 
   .thirdsection .card button {
       border-style: none;
       padding: 9px;
       border-radius: 25px;
       margin: 5px 55px;
+      font-weight: 600;
   }
 
   .thirdsection .card button:hover {
       background-color: #63abd5cf;
-      font-weight: 700;
-      box-shadow: 2px 3px 4px 4px #2b648d;
+      /* font-weight: 700; */
   }
 
   .cs {
@@ -265,7 +264,7 @@
   }
 
   .fourthsection {
-      height: 25vh;
+      min-height: 25vh;
   }
 
   .fourthsection span {
@@ -287,7 +286,7 @@
 
   .fourthsection div a {
       text-decoration: none;
-      color: rgb(42, 40, 40);
+      color: rgb(197, 194, 194);
       font-weight: 600;
   }
 
@@ -295,7 +294,7 @@
       bottom: 0;
       position: relative;
       height: 22vh;
-      box-shadow: 10px -2px 20px 6px rgb(100, 85, 85);
+      box-shadow: 10px -2px 20px 6px rgb(136, 111, 111);
       display: flex;
       justify-content: space-evenly;
 
@@ -305,7 +304,7 @@
       padding: 12px;
       font-size: large;
       font-weight: 900;
-      color: #262527;
+      color: #c1c9e9;
       align-self: center;
   }
 
@@ -316,7 +315,7 @@
 
   .footer ul li a {
       text-decoration: none;
-      color: rgb(30, 29, 29);
+      color: rgb(191, 186, 186);
       font-weight: 550;
   }
 
@@ -435,7 +434,7 @@
           box-shadow: none;
           /* margin: 12px; */
           min-width: 100%;
-          height: 54vh;
+          min-height: 60vh;
       }
 
       .skill ul li {
@@ -450,7 +449,7 @@
           justify-content: center;
           display: flex;
           flex-wrap: wrap;
-          gap: 30px;
+          gap: 5px;
       }
 
       .secondsection {
